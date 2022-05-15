@@ -1,0 +1,65 @@
+.menu-container {
+  width: 100%;
+  height: 50px;
+  background-color: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.menu-nav{
+  display: flex;
+  justify-content: space-around;
+}
+.menu-button:first-child {
+  margin-left: 5px;
+}
+.menu-button {
+  display: flex;
+  width: calc(100% / 4);
+  margin-right: 5px;
+  overflow: hidden;
+  color: rgb(var(--color-primary));
+  border-radius: 50px;
+  padding: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  justify-content: center;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.menu-button.fav:hover, .menu-button.activo.fav {
+  width: 110px;
+}
+.menu-button.activo, .menu-button:hover {
+  background-color: rgba(var(--color-primary), 0.2);
+}
+.menu-button span {
+  margin: auto 0;
+  display: block;
+  opacity: 0;
+  font-size: 0;
+  -webkit-transition: opacity 0.2s ease-in-out;
+  -moz-transition: opacity 0.2s ease-in-out;
+  -o-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
+}
+.menu-button svg {
+  width: 25px;
+  padding: 0;
+  margin: 0 auto;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.menu-button.activo svg, .menu-button:hover svg {
+  padding: 5px;
+  margin: initial;
+  min-width: 25px;
+}
+.menu-button.activo span, .menu-button:hover span {
+  opacity: 1;
+  font-size: 0.75em;
+}
