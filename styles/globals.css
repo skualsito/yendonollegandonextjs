@@ -2,6 +2,7 @@
 
 :root{
   --color-primary: 145, 76, 142;
+  --color-background: 255, 255, 255;
 }
 
 html,
