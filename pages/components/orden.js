@@ -6,6 +6,7 @@ moment.locale('es-mx')
 
 
 export default function Orden({data}) {
+    data = (data) ? data : {store: "", date: "", items:[]};
     return (
     <div className={`${styles["order"]} ${styles["box-primary"]}`}>
         <div className={styles["order-text"]}>
