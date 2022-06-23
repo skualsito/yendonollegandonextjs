@@ -3,6 +3,7 @@
 :root{
   --color-primary: 145, 76, 142;
   --color-background: 255, 255, 255;
+  --text-primary: 0, 0, 0;
 }
 
 html,
@@ -22,4 +23,16 @@ body > div:first-child,
 div#__next,
 div#__next > div {
   height: 100%;
+}
+
+input::placeholder {
+  color: rgba(var(--text-primary), 0.3);
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.9em;
+}
+
+input:focus {
+  outline-style: none;
+  box-shadow: none;
+  border-color: transparent;
 }

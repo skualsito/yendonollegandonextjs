@@ -19,8 +19,7 @@ let menu = [
     {
         link: "/favorite",
         icon: faHeart,
-        text: "Favoritos",
-        style: 1
+        text: "Favoritos"
     },
     {
         link: "/cart",
@@ -39,7 +38,7 @@ export default function Navbar() {
             {
                 menu.map((item, key) => (
                     <Link key={key} href={item.link} >
-                        <a className={`${styles["menu-button"]} ${(item.style) ? styles["fav"] : ""} ${(currentRoute == item.link) ? styles["activo"] : ""}`}>
+                        <a className={`${styles["menu-button"]} ${(currentRoute == item.link) ? styles["activo"] : ""}`}>
                             <FontAwesomeIcon icon={item.icon} />
                             <span>{item.text}</span>
                         </a> 

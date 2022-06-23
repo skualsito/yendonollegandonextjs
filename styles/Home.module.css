@@ -131,6 +131,24 @@
   font-weight: 600;
   font-size: 1.2em;
 }
+
+.header-search {
+  display: flex;
+  border-radius: 5px;
+}
+.header-search svg {
+  width: 20px;
+  margin: 10px;
+  color: rgb(var(--color-primary));
+}
+
+.header-search input {
+  width: 100%;
+  border: none;
+  padding: 10px 0 10px 0;
+}
+
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;

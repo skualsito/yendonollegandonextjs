@@ -29,9 +29,7 @@
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-.menu-button.fav:hover, .menu-button.activo.fav {
-  width: 110px;
-}
+
 .menu-button.activo, .menu-button:hover {
   background-color: rgba(var(--color-primary), 0.2);
 }
