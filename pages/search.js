@@ -16,24 +16,24 @@ export default function Search() {
         </div>
       </header>
       <div className={stylesearch["search-container"]}>
-        
-        <div className={stylesearch["search-principal-buttons"]}>
+        <div className={stylesearch["search-container-scroll"]}>
+          <div className={stylesearch["search-principal-buttons"]}>
 
-          <div className={`${stylesearch["search-button"]} ${stylesearch["delivery"]}`}>
-            <FontAwesomeIcon icon={faTruck} />
-            <p>Delivery</p>
-          </div>
+            <div className={`${stylesearch["search-button"]} ${stylesearch["delivery"]}`}>
+              <FontAwesomeIcon icon={faTruck} />
+              <p>Delivery</p>
+            </div>
 
-          <div className={`${stylesearch["search-button"]} ${stylesearch["takeaway"]}`}>
-            <FontAwesomeIcon icon={faBurger} />
-            <p>Take Away</p>
-          </div>
+            <div className={`${stylesearch["search-button"]} ${stylesearch["takeaway"]}`}>
+              <FontAwesomeIcon icon={faBurger} />
+              <p>Take Away</p>
+            </div>
 
-          <div className={`${stylesearch["search-button"]} ${stylesearch["onsite"]}`}>
-            <FontAwesomeIcon icon={faStore} />
-            <p>On Site</p>
+            <div className={`${stylesearch["search-button"]} ${stylesearch["onsite"]}`}>
+              <FontAwesomeIcon icon={faStore} />
+              <p>On Site</p>
+            </div>
           </div>
-          
         </div>
 
       </div>
