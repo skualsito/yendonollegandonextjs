@@ -2,8 +2,8 @@ import styles from '../styles/Home.module.css'
 import stylesearch from '../styles/Search.module.css'
 import { faBurger, faMagnifyingGlass, faStore, faTruck } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-
-
+import ShopItem from './components/shopitem'
+import data from './data.json';
 
 export default function Search() {
   return (
@@ -17,6 +17,7 @@ export default function Search() {
       </header>
       <div className={stylesearch["search-container"]}>
         <div className={stylesearch["search-container-scroll"]}>
+        {/* 
           <div className={stylesearch["search-principal-buttons"]}>
 
             <div className={`${stylesearch["search-button"]} ${stylesearch["delivery"]}`}>
@@ -34,8 +35,13 @@ export default function Search() {
               <p>On Site</p>
             </div>
           </div>
+         */}
+        {
+          data.rows.map((item, key) => (
+            <ShopItem key={key} data={item}/>
+          ))
+        }
         </div>
-
       </div>
     </>
   )
