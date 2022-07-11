@@ -25,7 +25,7 @@ const Shop = () => {
             <h3>{title}</h3>
             <p className={styles["shop-page-descripcion-direccion"]}>
               <FontAwesomeIcon icon={faLocationDot} />
-              <a href={`https://www.google.com.ar/maps/place/${shopData.direccion}, San Bernardo del Tuyú, Provincia de Buenos Aires, Argentina`} target="_blank">{shopData.direccion}</a>
+              <a href={`https://www.google.com.ar/maps/place/${shopData.direccion}, San Bernardo del Tuyú, Provincia de Buenos Aires, Argentina`} target="_blank" rel="noreferrer">{shopData.direccion}</a>
             </p>
             <p className={styles["shop-page-descripcion-larga"]}>
             {shopData.descripcionLarga}
