@@ -1,15 +1,32 @@
 import { useRouter } from 'next/router'
+import {useState} from 'react';
 import data from '../data.json'
+import shop from '../shop.json'
 import styles from '../../styles/Shop.module.css'
 import Image from 'next/image'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
+import ItemCategoria from '../components/itemcategoria';
+
 
 const Shop = () => {
   const router = useRouter()
   const { title } = router.query
   let shopData = data.rows.filter(v=> v.titulo == title)
   shopData = (shopData.length > 0) ? shopData[0] : [{logo: "", titulo: "", descripcionLarga:"", back: "", direccion: ""}][0];
+
+
+  const [toggleCat, settoggleCat] = useState(false);
+
+  function clickCategoria(key, el) {
+    settoggleCat(key)
+    el = el.target;
+    el.parentNode.scrollTo({
+      top: 0,
+      left: el.offsetLeft - el.parentNode.offsetLeft,
+      behavior: 'smooth'
+    });
+  }
 
   return (
         <div className={styles["shop-page-container"]}>
@@ -30,6 +47,23 @@ const Shop = () => {
             <p className={styles["shop-page-descripcion-larga"]}>
             {shopData.descripcionLarga}
             </p>
+            <nav className={styles["shop-page-menu-categorias"]}>
+              <ul>
+              {
+                shop[0].menu.map((item, key)=>{
+                  return <li key={key} className={(toggleCat == key) ? styles["activo"] : ""} onClick={clickCategoria.bind(this, key)}>{item.titulo}</li>
+                })
+              }
+              </ul>
+            </nav>
+            <div className={styles["shop-page-menu-items-categorias-container"]}>
+              {
+                shop[0].menu.map((item, key)=>{
+                  
+                  return <ItemCategoria key={key} data={item} />
+                })
+              }
+            </div>
           </main>
         </div>
   )

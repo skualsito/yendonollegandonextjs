@@ -37,3 +37,12 @@ input:focus {
   box-shadow: none;
   border-color: transparent;
 }
+
+html *::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  -ms-overflow-style: none;
+  scrollbar-width: none; 
+}

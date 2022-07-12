@@ -1,0 +1,251 @@
+[
+  {
+    "pkshop": 17,
+    "titulo": "BACÁN BURGER",
+    "descripcion": "¡Plancha llena, corazón contento!",
+    "descripcionLarga": "🖤 ¡Plancha llena, corazón contento! 🖤\n🍔 Burger lovers\n🕗 Martes a Domingo de 20:30 a 00:00 hs\n🏫 Salón abierto de Jueves a Domingo\n❌ LUNES CERRADO ❌\n📩 Pedidos por MD de Instagram",
+    "instagram": "bacanburger",
+    "whatsapp": null,
+    "facebook": null,
+    "twitter": null,
+    "telefono": null,
+    "url": null,
+    "logo": "1651150680802.webp",
+    "back": "1651628211818.webp",
+    "fklocalidad": 8,
+    "delivery": 1,
+    "takeaway": 1,
+    "onsite": 1,
+    "direccion": "Chiozza 2260",
+    "observacion": null,
+    "fecha_creacion": "2022-04-21T10:13:22.000Z",
+    "eliminado": 0,
+    "fktipo": 1,
+    "fkestado": 2,
+    "fkvisible": 1,
+    "fkusuario": 7,
+    "localidadesdelivery": [9, 8],
+    "menu": [
+      {
+        "pkmenu": 314,
+        "fkshop": 17,
+        "titulo": "Burgers",
+        "descripcion": "+ papas fritas",
+        "items": [
+          {
+            "fkmenu": 314,
+            "fkshop": 17,
+            "titulo": "Blue Onion Burger",
+            "descripcion": "Blend de carne, emmental, queso azul, panceta crocante y cebolla durante la cocción"
+          },
+          {
+            "fkmenu": 314,
+            "fkshop": 17,
+            "titulo": "Typical Burger",
+            "descripcion": "Blend de carne, cheddar, panceta crocante, cebolla caramelizada y huevo a la plancha"
+          },
+          {
+            "fkmenu": 314,
+            "fkshop": 17,
+            "titulo": "Bacon cheese Burger",
+            "descripcion": "Blend de carne, queso cheddar, panceta crocante y salsa bomb"
+          },
+          {
+            "fkmenu": 314,
+            "fkshop": 17,
+            "titulo": "Chesse Burger",
+            "descripcion": "Blend de carne y queso cheddar"
+          },
+          {
+            "fkmenu": 314,
+            "fkshop": 17,
+            "titulo": "American Burger",
+            "descripcion": "Blend de carne, cheddar, panceta crocante, tomate, lechuga, cebolla morada y salsa bomb"
+          },
+          {
+            "fkmenu": 314,
+            "fkshop": 17,
+            "titulo": "Oklahoma Burger",
+            "descripcion": "Blend de carne, cheddar, Cebolla durante la cocción y pepinillos."
+          },
+          {
+            "fkmenu": 314,
+            "fkshop": 17,
+            "titulo": "Big Burger",
+            "descripcion": "Blend de carne, cheddar, lechuga, cebolla morada, pepinillos y salsa bomb"
+          },
+          {
+            "fkmenu": 314,
+            "fkshop": 17,
+            "titulo": "Garlic Burger",
+            "descripcion": "Blend de carne, emmental, rúcula, tomate y mayo de ajo"
+          },
+          {
+            "fkmenu": 314,
+            "fkshop": 17,
+            "titulo": "Quarter Burger",
+            "descripcion": "Blend de carne, cheddar, cebolla morada, pepinillos, ketchup y mostaza"
+          },
+          {
+            "fkmenu": 314,
+            "fkshop": 17,
+            "titulo": "Veggie Burger",
+            "descripcion": "Medallón veggie de @lanegracalambaza emmental, espinaca, tomáte, palta, cebolla caramelizada y mayo de ajo"
+          }
+        ]
+      },
+      {
+        "pkmenu": 315,
+        "fkshop": 17,
+        "titulo": "Custom Burger",
+        "descripcion": "de carne, veggie o NOT",
+        "items": [
+          {
+            "fkmenu": 315,
+            "fkshop": 17,
+            "titulo": "Elegí hasta cuatro ingredientes",
+            "descripcion": "Tomate, lechuga, cebolla morada, cebolla caramelizada, palta, rúcula, espinaca, huevo, cheddar, queso azul emmental, panceta, pepinillos"
+          }
+        ]
+      },
+      {
+        "pkmenu": 315,
+        "fkshop": 17,
+        "titulo": "Custom Burger 2",
+        "descripcion": "de carne, veggie o NOT",
+        "items": [
+          {
+            "fkmenu": 315,
+            "fkshop": 17,
+            "titulo": "Elegí hasta cuatro ingredientes",
+            "descripcion": "Tomate, lechuga, cebolla morada, cebolla caramelizada, palta, rúcula, espinaca, huevo, cheddar, queso azul emmental, panceta, pepinillos"
+          }
+        ]
+      },
+      {
+        "pkmenu": 315,
+        "fkshop": 17,
+        "titulo": "Custom Burger 3",
+        "descripcion": "de carne, veggie o NOT",
+        "items": [
+          {
+            "fkmenu": 315,
+            "fkshop": 17,
+            "titulo": "Elegí hasta cuatro ingredientes",
+            "descripcion": "Tomate, lechuga, cebolla morada, cebolla caramelizada, palta, rúcula, espinaca, huevo, cheddar, queso azul emmental, panceta, pepinillos"
+          }
+        ]
+      },
+      {
+        "pkmenu": 315,
+        "fkshop": 17,
+        "titulo": "Custom Burger 4",
+        "descripcion": "de carne, veggie o NOT",
+        "items": [
+          {
+            "fkmenu": 315,
+            "fkshop": 17,
+            "titulo": "Elegí hasta cuatro ingredientes",
+            "descripcion": "Tomate, lechuga, cebolla morada, cebolla caramelizada, palta, rúcula, espinaca, huevo, cheddar, queso azul emmental, panceta, pepinillos"
+          }
+        ]
+      },
+      {
+        "pkmenu": 315,
+        "fkshop": 17,
+        "titulo": "Custom Burger 5",
+        "descripcion": "de carne, veggie o NOT",
+        "items": [
+          {
+            "fkmenu": 315,
+            "fkshop": 17,
+            "titulo": "Elegí hasta cuatro ingredientes",
+            "descripcion": "Tomate, lechuga, cebolla morada, cebolla caramelizada, palta, rúcula, espinaca, huevo, cheddar, queso azul emmental, panceta, pepinillos"
+          }
+        ]
+      },
+      {
+        "pkmenu": 316,
+        "fkshop": 17,
+        "titulo": "Bacán fries",
+        "descripcion": null,
+        "items": [
+          {
+            "fkmenu": 316,
+            "fkshop": 17,
+            "titulo": "Porción de papas fritas",
+            "descripcion": null
+          },
+          {
+            "fkmenu": 316,
+            "fkshop": 17,
+            "titulo": "Porción de papas fritas con cheddar",
+            "descripcion": null
+          },
+          {
+            "fkmenu": 316,
+            "fkshop": 17,
+            "titulo": "Porción de tequeños",
+            "descripcion": "con dip de salsa de tomate"
+          },
+          {
+            "fkmenu": 316,
+            "fkshop": 17,
+            "titulo": "Porción de papas fritas con cheddar y bacon",
+            "descripcion": null
+          },
+          {
+            "fkmenu": 316,
+            "fkshop": 17,
+            "titulo": "Porción de aros de cebolla",
+            "descripcion": "con dip de mayo de ajo"
+          }
+        ]
+      },
+      {
+        "pkmenu": 317,
+        "fkshop": 17,
+        "titulo": "Aderezos",
+        "descripcion": null,
+        "items": [
+          {
+            "fkmenu": 317,
+            "fkshop": 17,
+            "titulo": "Mayo de ajo",
+            "descripcion": null
+          },
+          {
+            "fkmenu": 317,
+            "fkshop": 17,
+            "titulo": "Salsa BOMB",
+            "descripcion": "mayo, ketchup y mostaza"
+          },
+          {
+            "fkmenu": 317,
+            "fkshop": 17,
+            "titulo": "Mayonesa",
+            "descripcion": null
+          },
+          {
+            "fkmenu": 317,
+            "fkshop": 17,
+            "titulo": "Barbacoa",
+            "descripcion": null
+          },
+          {
+            "fkmenu": 317,
+            "fkshop": 17,
+            "titulo": "Ketchup",
+            "descripcion": null
+          },
+          {
+            "fkmenu": 317,
+            "fkshop": 17,
+            "titulo": "Salsa de tomate",
+            "descripcion": null
+          }
+        ]
+      }
+    ]
+  }
+]

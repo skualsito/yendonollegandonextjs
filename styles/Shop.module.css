@@ -128,3 +128,28 @@
   opacity: .8;
   color: rgb(var(--text-secondary));
 }
+
+
+.shop-page-menu-categorias ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  max-width: 100%;
+  overflow-x: auto;
+  width: fit-content;
+  white-space: nowrap;
+}
+
+.shop-page-menu-categorias ul li {
+  padding: 5px 10px;
+  margin-right: 10px;
+  border-radius: 15px;
+  background: rgb(0 0 0 / 5%);
+  color: rgb(var(--text-secondary));
+  cursor: pointer;
+}
+
+.shop-page-menu-categorias ul li.activo {
+  background: rgb(0 0 0 / 15%);
+  font-weight: 600;
+}
