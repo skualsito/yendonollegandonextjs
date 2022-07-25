@@ -8,6 +8,7 @@ export default function ItemMenu({data}) {
             <div className={`${styles["shop-page-menu-categorias-group"]}`}>
                 <div className={`${styles["shop-page-menu-item"]}`}>
                     <h5>{data.titulo}</h5>
+                    <small>{data.descripcion}</small>
                 </div>
                 <div className={`${styles["shop-page-menu-item-precio"]}`}>
                     {
@@ -17,7 +18,7 @@ export default function ItemMenu({data}) {
                     }
                 </div>
             </div> 
-            <small>{data.descripcion}</small>
+            
         </div>
     )
 }
