@@ -69,6 +69,25 @@
   width: 100%;
   position: relative;
   margin-bottom: 80px;
+  transition: all .3s ease-in-out;
+}
+
+.shop-page-container header.activo {
+  position: -webkit-sticky;
+  position: sticky;
+  top: -190px;
+  z-index: 1;
+  background: #fff;
+}
+
+.shop-page-container header.activo::before {
+  content: " ";
+  background: #fff;
+  width: 100%;
+  height: 135px;
+  top: 0;
+  position: fixed;
+  left: 0;
 }
 
 .shop-page-header-background {
@@ -78,6 +97,11 @@
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
   box-shadow: 0px 15px 20px 0px rgb(0 0 0 / 10%);
+  transition: all .25s ease-in-out;
+}
+
+.shop-page-container header.activo .shop-page-header-background {
+  opacity: .5;
 }
 
 .shop-page-header-logo {
@@ -96,6 +120,15 @@
   margin-top: 0;
   margin-bottom: 5px;
   font-size: 1.1rem;
+  
+}
+
+.shop-page-title {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 130px;
+  z-index: 1;
+  background: #fff;
 }
 
 .shop-page-container main {
@@ -127,8 +160,17 @@
   white-space: -o-pre-wrap;
   opacity: .8;
   color: rgb(var(--text-secondary));
+  margin-bottom: 0;
 }
 
+.shop-page-menu-categorias {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 155px;
+  background: #fff;
+  padding: 10px 0;
+  z-index: 1;
+}
 
 .shop-page-menu-categorias ul {
   list-style: none;
@@ -138,6 +180,8 @@
   overflow-x: auto;
   width: fit-content;
   white-space: nowrap;
+  margin: 0;
+  
 }
 
 .shop-page-menu-categorias ul li {
@@ -152,4 +196,51 @@
 .shop-page-menu-categorias ul li.activo {
   background: rgb(0 0 0 / 15%);
   font-weight: 600;
+}
+
+.shop-page-menu-categorias-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.shop-page-menu-categoria-titulo {
+
+}
+
+
+
+.shop-page-menu-items-categorias {
+  padding: 10px 15px;
+  margin-bottom: 15px;
+  color: #2c3e50;
+}
+
+.shop-page-menu-precios, .shop-page-menu-item-precio {
+  display: flex;
+  flex-direction: row;
+  color: #646464;
+}
+
+.shop-page-menu-precios h3 {
+  margin: 0 10px;
+}
+
+.shop-page-menu-categoria-titulo h3 {
+  margin: 0!important;
+}
+
+.shop-page-menu-item h5 {
+  margin: 10px 0 0 0;
+  font-size: .8rem;
+}
+
+.shop-page-menu-item-precio h5 {
+  margin: 10px 10px 0 10px;
+  min-width: max-content;
+  font-size: .8rem;
+}
+
+.shop-page-menu-item-contenedor small {
+  font-size: .7rem;
+  opacity: .8;
 }

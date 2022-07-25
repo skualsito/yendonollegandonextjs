@@ -31,66 +31,77 @@
         "fkshop": 17,
         "titulo": "Burgers",
         "descripcion": "+ papas fritas",
+        "precios": ["Simple", "Doble"],
         "items": [
           {
             "fkmenu": 314,
             "fkshop": 17,
             "titulo": "Blue Onion Burger",
-            "descripcion": "Blend de carne, emmental, queso azul, panceta crocante y cebolla durante la cocción"
+            "descripcion": "Blend de carne, emmental, queso azul, panceta crocante y cebolla durante la cocción",
+            "precios": [1250, 1450]
           },
           {
             "fkmenu": 314,
             "fkshop": 17,
             "titulo": "Typical Burger",
-            "descripcion": "Blend de carne, cheddar, panceta crocante, cebolla caramelizada y huevo a la plancha"
+            "descripcion": "Blend de carne, cheddar, panceta crocante, cebolla caramelizada y huevo a la plancha",
+            "precios": [1250, 1450]
           },
           {
             "fkmenu": 314,
             "fkshop": 17,
             "titulo": "Bacon cheese Burger",
-            "descripcion": "Blend de carne, queso cheddar, panceta crocante y salsa bomb"
+            "descripcion": "Blend de carne, queso cheddar, panceta crocante y salsa bomb",
+            "precios": [1150, 1350]
           },
           {
             "fkmenu": 314,
             "fkshop": 17,
             "titulo": "Chesse Burger",
-            "descripcion": "Blend de carne y queso cheddar"
+            "descripcion": "Blend de carne y queso cheddar",
+            "precios": [1050, 1250]
           },
           {
             "fkmenu": 314,
             "fkshop": 17,
             "titulo": "American Burger",
-            "descripcion": "Blend de carne, cheddar, panceta crocante, tomate, lechuga, cebolla morada y salsa bomb"
+            "descripcion": "Blend de carne, cheddar, panceta crocante, tomate, lechuga, cebolla morada y salsa bomb",
+            "precios": [1250, 1450]
           },
           {
             "fkmenu": 314,
             "fkshop": 17,
             "titulo": "Oklahoma Burger",
-            "descripcion": "Blend de carne, cheddar, Cebolla durante la cocción y pepinillos."
+            "descripcion": "Blend de carne, cheddar, Cebolla durante la cocción y pepinillos.",
+            "precios": [1150, 1350]
           },
           {
             "fkmenu": 314,
             "fkshop": 17,
             "titulo": "Big Burger",
-            "descripcion": "Blend de carne, cheddar, lechuga, cebolla morada, pepinillos y salsa bomb"
+            "descripcion": "Blend de carne, cheddar, lechuga, cebolla morada, pepinillos y salsa bomb",
+            "precios": [1150, 1350]
           },
           {
             "fkmenu": 314,
             "fkshop": 17,
             "titulo": "Garlic Burger",
-            "descripcion": "Blend de carne, emmental, rúcula, tomate y mayo de ajo"
+            "descripcion": "Blend de carne, emmental, rúcula, tomate y mayo de ajo",
+            "precios": [1150, 1350]
           },
           {
             "fkmenu": 314,
             "fkshop": 17,
             "titulo": "Quarter Burger",
-            "descripcion": "Blend de carne, cheddar, cebolla morada, pepinillos, ketchup y mostaza"
+            "descripcion": "Blend de carne, cheddar, cebolla morada, pepinillos, ketchup y mostaza",
+            "precios": [1150, 1350]
           },
           {
             "fkmenu": 314,
             "fkshop": 17,
             "titulo": "Veggie Burger",
-            "descripcion": "Medallón veggie de @lanegracalambaza emmental, espinaca, tomáte, palta, cebolla caramelizada y mayo de ajo"
+            "descripcion": "Medallón veggie de @lanegracalambaza emmental, espinaca, tomáte, palta, cebolla caramelizada y mayo de ajo",
+            "precios": [1250, 0]
           }
         ]
       },
@@ -99,68 +110,14 @@
         "fkshop": 17,
         "titulo": "Custom Burger",
         "descripcion": "de carne, veggie o NOT",
+        "precios": ["Simple", "Doble"],
         "items": [
           {
             "fkmenu": 315,
             "fkshop": 17,
             "titulo": "Elegí hasta cuatro ingredientes",
-            "descripcion": "Tomate, lechuga, cebolla morada, cebolla caramelizada, palta, rúcula, espinaca, huevo, cheddar, queso azul emmental, panceta, pepinillos"
-          }
-        ]
-      },
-      {
-        "pkmenu": 315,
-        "fkshop": 17,
-        "titulo": "Custom Burger 2",
-        "descripcion": "de carne, veggie o NOT",
-        "items": [
-          {
-            "fkmenu": 315,
-            "fkshop": 17,
-            "titulo": "Elegí hasta cuatro ingredientes",
-            "descripcion": "Tomate, lechuga, cebolla morada, cebolla caramelizada, palta, rúcula, espinaca, huevo, cheddar, queso azul emmental, panceta, pepinillos"
-          }
-        ]
-      },
-      {
-        "pkmenu": 315,
-        "fkshop": 17,
-        "titulo": "Custom Burger 3",
-        "descripcion": "de carne, veggie o NOT",
-        "items": [
-          {
-            "fkmenu": 315,
-            "fkshop": 17,
-            "titulo": "Elegí hasta cuatro ingredientes",
-            "descripcion": "Tomate, lechuga, cebolla morada, cebolla caramelizada, palta, rúcula, espinaca, huevo, cheddar, queso azul emmental, panceta, pepinillos"
-          }
-        ]
-      },
-      {
-        "pkmenu": 315,
-        "fkshop": 17,
-        "titulo": "Custom Burger 4",
-        "descripcion": "de carne, veggie o NOT",
-        "items": [
-          {
-            "fkmenu": 315,
-            "fkshop": 17,
-            "titulo": "Elegí hasta cuatro ingredientes",
-            "descripcion": "Tomate, lechuga, cebolla morada, cebolla caramelizada, palta, rúcula, espinaca, huevo, cheddar, queso azul emmental, panceta, pepinillos"
-          }
-        ]
-      },
-      {
-        "pkmenu": 315,
-        "fkshop": 17,
-        "titulo": "Custom Burger 5",
-        "descripcion": "de carne, veggie o NOT",
-        "items": [
-          {
-            "fkmenu": 315,
-            "fkshop": 17,
-            "titulo": "Elegí hasta cuatro ingredientes",
-            "descripcion": "Tomate, lechuga, cebolla morada, cebolla caramelizada, palta, rúcula, espinaca, huevo, cheddar, queso azul emmental, panceta, pepinillos"
+            "descripcion": "Tomate, lechuga, cebolla morada, cebolla caramelizada, palta, rúcula, espinaca, huevo, cheddar, queso azul emmental, panceta, pepinillos",
+            "precios": [1250, 1450]
           }
         ]
       },
@@ -169,36 +126,72 @@
         "fkshop": 17,
         "titulo": "Bacán fries",
         "descripcion": null,
+        "precios": [],
         "items": [
           {
             "fkmenu": 316,
             "fkshop": 17,
             "titulo": "Porción de papas fritas",
-            "descripcion": null
+            "descripcion": null,
+            "precios": [700]
           },
           {
             "fkmenu": 316,
             "fkshop": 17,
             "titulo": "Porción de papas fritas con cheddar",
-            "descripcion": null
+            "descripcion": null,
+            "precios": [800]
           },
           {
             "fkmenu": 316,
             "fkshop": 17,
             "titulo": "Porción de tequeños",
-            "descripcion": "con dip de salsa de tomate"
+            "descripcion": "con dip de salsa de tomate",
+            "precios": [900]
           },
           {
             "fkmenu": 316,
             "fkshop": 17,
             "titulo": "Porción de papas fritas con cheddar y bacon",
-            "descripcion": null
+            "descripcion": null,
+            "precios": [900]
           },
           {
             "fkmenu": 316,
             "fkshop": 17,
             "titulo": "Porción de aros de cebolla",
-            "descripcion": "con dip de mayo de ajo"
+            "descripcion": "con dip de mayo de ajo",
+            "precios": [800]
+          }
+        ]
+      },
+      {
+        "pkmenu": 316,
+        "fkshop": 17,
+        "titulo": "Bacán fries EXTRAS",
+        "descripcion": null,
+        "precios": [],
+        "items": [
+          {
+            "fkmenu": 316,
+            "fkshop": 17,
+            "titulo": "Carne + cheddarx2",
+            "descripcion": null,
+            "precios": [300]
+          },
+          {
+            "fkmenu": 316,
+            "fkshop": 17,
+            "titulo": "Vegetales o huevo",
+            "descripcion": null,
+            "precios": [150]
+          },
+          {
+            "fkmenu": 316,
+            "fkshop": 17,
+            "titulo": "Cheddar, bacon o Ceb. caramelizada",
+            "descripcion": null,
+            "precios": [250]
           }
         ]
       },
@@ -207,42 +200,49 @@
         "fkshop": 17,
         "titulo": "Aderezos",
         "descripcion": null,
+        "precios": ["DIP"],
         "items": [
           {
             "fkmenu": 317,
             "fkshop": 17,
             "titulo": "Mayo de ajo",
-            "descripcion": null
+            "descripcion": null,
+            "precios": [150]
           },
           {
             "fkmenu": 317,
             "fkshop": 17,
             "titulo": "Salsa BOMB",
-            "descripcion": "mayo, ketchup y mostaza"
+            "descripcion": "mayo, ketchup y mostaza",
+            "precios": [150]
           },
           {
             "fkmenu": 317,
             "fkshop": 17,
             "titulo": "Mayonesa",
-            "descripcion": null
+            "descripcion": null,
+            "precios": [150]
           },
           {
             "fkmenu": 317,
             "fkshop": 17,
             "titulo": "Barbacoa",
-            "descripcion": null
+            "descripcion": null,
+            "precios": [150]
           },
           {
             "fkmenu": 317,
             "fkshop": 17,
             "titulo": "Ketchup",
-            "descripcion": null
+            "descripcion": null,
+            "precios": [150]
           },
           {
             "fkmenu": 317,
             "fkshop": 17,
             "titulo": "Salsa de tomate",
-            "descripcion": null
+            "descripcion": null,
+            "precios": [150]
           }
         ]
       }
