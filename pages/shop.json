@@ -25,6 +25,88 @@
     "fkvisible": 1,
     "fkusuario": 7,
     "localidadesdelivery": [9, 8],
+    "recomendados": [
+      {
+        "fkmenu": 314,
+        "fkshop": 17,
+        "titulo": "Blue Onion Burger",
+        "descripcion": "Blend de carne, emmental, queso azul, panceta crocante y cebolla durante la cocción",
+        "precio": 1300,
+        "imagen": "1651628211818.webp"
+      },
+      {
+        "fkmenu": 314,
+        "fkshop": 17,
+        "titulo": "Typical Burger",
+        "descripcion": "Blend de carne, cheddar, panceta crocante, cebolla caramelizada y huevo a la plancha",
+        "precio": 1250,
+        "imagen": "1651150210371.webp"
+      },
+      {
+        "fkmenu": 314,
+        "fkshop": 17,
+        "titulo": "Bacon cheese Burger",
+        "descripcion": "Blend de carne, queso cheddar, panceta crocante y salsa bomb",
+        "precio": 1350,
+        "imagen": "1651167385517.webp"
+      },
+      {
+        "fkmenu": 314,
+        "fkshop": 17,
+        "titulo": "Chesse Burger",
+        "descripcion": "Blend de carne y queso cheddar",
+        "precio": 1050,
+        "imagen": "1651168423230.webp"
+      },
+      {
+        "fkmenu": 314,
+        "fkshop": 17,
+        "titulo": "American Burger",
+        "descripcion": "Blend de carne, cheddar, panceta crocante, tomate, lechuga, cebolla morada y salsa bomb",
+        "precio": 1450,
+        "imagen": "1651286523325.webp"
+      },
+      {
+        "fkmenu": 314,
+        "fkshop": 17,
+        "titulo": "Oklahoma Burger",
+        "descripcion": "Blend de carne, cheddar, Cebolla durante la cocción y pepinillos.",
+        "precio": 1150,
+        "imagen": "1651107453248.webp"
+      },
+      {
+        "fkmenu": 314,
+        "fkshop": 17,
+        "titulo": "Big Burger",
+        "descripcion": "Blend de carne, cheddar, lechuga, cebolla morada, pepinillos y salsa bomb",
+        "precio": 1150,
+        "imagen": "1651107760824.webp"
+      },
+      {
+        "fkmenu": 314,
+        "fkshop": 17,
+        "titulo": "Garlic Burger",
+        "descripcion": "Blend de carne, emmental, rúcula, tomate y mayo de ajo",
+        "precio": 1350,
+        "imagen": "1651154152847.webp"
+      },
+      {
+        "fkmenu": 314,
+        "fkshop": 17,
+        "titulo": "Quarter Burger",
+        "descripcion": "Blend de carne, cheddar, cebolla morada, pepinillos, ketchup y mostaza",
+        "precio": 350,
+        "imagen": "1651168558138.webp"
+      },
+      {
+        "fkmenu": 314,
+        "fkshop": 17,
+        "titulo": "Veggie Burger",
+        "descripcion": "Medallón veggie de @lanegracalambaza emmental, espinaca, tomáte, palta, cebolla caramelizada y mayo de ajo",
+        "precio": 1250,
+        "imagen": "1651286904196.webp"
+      }
+    ],
     "menu": [
       {
         "pkmenu": 314,

@@ -3,6 +3,7 @@ import homeStyle from '../../styles/Home.module.css'
 import ItemMenu from './itemmenu'
 
 
+
 export default function ItemCategoria({data}) {
     data = (data) ? data : {titulo: "", descripcion: "", precios:[], items:[]};
     return (
@@ -28,6 +29,8 @@ export default function ItemCategoria({data}) {
                 })
             }
         </div>
+        
+        
     </div>
     )
 }

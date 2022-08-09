@@ -1,0 +1,27 @@
+[
+    {
+      "titulo": "Carne + cheddarx2",
+      "precio": 300
+    },
+    {
+        "titulo": "Vegetales",
+        "precio": 150
+    },
+    {
+        "titulo": "Huevo",
+        "precio": 150
+    },
+    {
+        "titulo": "Cheddar",
+        "precio": 250
+    },
+    {
+        "titulo": "Bacon",
+        "precio": 250
+    },
+    {
+        "titulo": "Cebolla caramelizada",
+        "precio": 250
+    }
+  ]
+  

@@ -7,11 +7,15 @@ import Image from 'next/image'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
 import ItemCategoria from '../components/itemcategoria';
+import ItemRecomendado from '../components/itemrecomended';
+
 
 
 const Shop = () => {
   const router = useRouter()
   const divContainerRef = React.createRef();
+  const divRecomendadosRef = React.createRef();
+  
   const { title } = router.query
   let shopData = data.rows.filter(v=> v.titulo == title)
   shopData = (shopData.length > 0) ? shopData[0] : [{logo: "", titulo: "", descripcionLarga:"", back: "", direccion: ""}][0];
@@ -19,6 +23,9 @@ const Shop = () => {
 
   const [toggleCat, settoggleCat] = useState(false);
   const [toggleHeader, settoggleHeader] = useState(false);
+  const [indexActivo, setindexActivo] = useState(0);
+
+
 
   useEffect(() => {
  
@@ -28,6 +35,9 @@ const Shop = () => {
         } else {
           settoggleHeader(false);
         }
+      });
+      divRecomendadosRef.current.addEventListener("scroll", (a) => {
+        setindexActivo(Math.round(a.target.scrollLeft / 200));
       });
   }, []);
 
@@ -66,6 +76,7 @@ const Shop = () => {
             </p>
             <nav className={styles["shop-page-menu-categorias"]}>
               <ul>
+              <li className={`${(toggleCat == -1) ? styles["activo"] : ""} ${(shop[0].recomendados.length > 0) ? "" : "d-none"}`} onClick={clickCategoria.bind(this, -1)}>Recomendados</li>
               {
                 shop[0].menu.map((item, key)=>{
                   return <li key={key} className={(toggleCat == key) ? styles["activo"] : ""} onClick={clickCategoria.bind(this, key)}>{item.titulo}</li>
@@ -73,15 +84,24 @@ const Shop = () => {
               }
               </ul>
             </nav>
+            <h3 className={`${(shop[0].recomendados.length > 0) ? "" : "d-none"}`}>Recomendados</h3>
+            <nav id={encodeURIComponent("Recomendados")} className={`${(shop[0].recomendados.length > 0) ? "" : "d-none"} ${styles["shop-page-menu-recomendados"]}`} ref={divRecomendadosRef}>
+              {
+                shop[0].recomendados.map((item, key)=>{
+                  return <ItemRecomendado activo={`${(indexActivo == key) ? styles["activo"] : ""}`} key={key} data={item} />
+                })
+              }
+            </nav>
             <div className={styles["shop-page-menu-items-categorias-container"]}>
               {
                 shop[0].menu.map((item, key)=>{
                   
-                  return <ItemCategoria key={key} data={item} />
+                  return <ItemCategoria key={key} data={item}  />
                 })
               }
             </div>
           </main>
+          
         </div>
   )
 }
