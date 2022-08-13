@@ -33,19 +33,21 @@ export default function ItemMenu({data}) {
                             return (
                                 <div key={key} className={styles["shop-page-menu-extras-item"]}>
                                     <h5>{item.titulo}</h5>
-                                    <span>{item.precio}</span>
-                                    <button>+</button>
-                                    <p>0</p>
-                                    <button>-</button>
+                                    <span>$ {item.precio}</span>
+                                    <div className={styles["shop-page-menu-extras-item-buttons"]}>
+                                        <button>-</button>
+                                        <p>0</p>
+                                        <button>+</button>
+                                    </div>
                                 </div>
                             )
                         })
                     }
                     
                 </div>
-                <button className="shop-page-btn-agregar" onClick={() => dispatch(addToCart({id:data.titulo, item: data}))}>Agregar</button>
+                <button className={styles["shop-page-btn-agregar"]} onClick={() => {dispatch(addToCart({id:data.titulo, item: data})); settoggleExtra(false)}}>Agregar</button>
             </div>
-            <button className="shop-page-btn-agregar" onClick={() => settoggleExtra(true)}>Agregar</button>
+            <button className={styles["shop-page-btn-agregar"]} onClick={() => settoggleExtra(true)}>Agregar</button>
         </div>
     )
 }
