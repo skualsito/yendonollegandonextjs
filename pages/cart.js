@@ -9,7 +9,7 @@ export default function Search() {
   return (
     <div style={{"width": "100%"}}>
       {cart.map((item) => (
-        <div style={{"display": "flex", "justify-content": "space-between"}}>
+        <div  key={item.id} style={{"display": "flex", "justify-content": "space-between"}}>
           <h5 style={{"display": "flex", "flex-direction": "column"}}>
             {item.id}
             <small style={{"opacity": ".7", "font-weight": "500"}}>{item.item.descripcion}</small>
